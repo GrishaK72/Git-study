@@ -13,7 +13,7 @@ public class ExpensesManager{
     }
 
     void findMaxExpense(){
-        double maxExpense = 0;
+        double maxExpense;
         for (int i = 0; i < expenses.length; i++) {
            if (expenses[i] > maxExpense){
                 maxExpense = expenses[i];
