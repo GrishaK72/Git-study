@@ -4,8 +4,7 @@
     <option name="autoscrollToSource" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a743e0b-d0cc-4b1a-895f-9d5a868d9b5d" name="Changes" comment="Внес изменения в класс ExpansesManager">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="3a743e0b-d0cc-4b1a-895f-9d5a868d9b5d" name="Changes" comment="задание выполнено">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656659734800</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="задание выполнено">
+      <created>1656664825606</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656664825606</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +168,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавляю проектв Git" />
     <MESSAGE value="Внес изменения в класс ExpansesManager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Внес изменения в класс ExpansesManager" />
+    <MESSAGE value="задание выполнено" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание выполнено" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
