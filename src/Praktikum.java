@@ -32,7 +32,7 @@ public class Praktikum {
                 day = scanner.nextInt();
                 System.out.println("Введите размер траты:");
                 expense = scanner.nextDouble();
-                manager.saveExpense( moneyBeforeSalary, expense, day);
+                moneyBeforeSalary = manager.saveExpense( moneyBeforeSalary, expense, day);
             } else if (command == 4) {
                 manager.printAllExpenses();
             } else if (command == 5) {
