@@ -4,8 +4,10 @@
     <option name="autoscrollToSource" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a743e0b-d0cc-4b1a-895f-9d5a868d9b5d" name="Changes" comment="Добавляю проектв Git">
+    <list default="true" id="3a743e0b-d0cc-4b1a-895f-9d5a868d9b5d" name="Changes" comment="Внес изменения в класс ExpansesManager">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExpensesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExpensesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Praktikum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Praktikum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +22,17 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/out/production/MyJavaProject/Praktikum.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DinnerAdvisor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ExpensesManager.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Praktikum.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -96,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656653710775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавляю проектв Git">
+      <created>1656657010937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656657010937</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,28 +148,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавляю проектв Git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавляю проектв Git" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ExpensesManager.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ExpensesManager.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ExpensesManager.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Внес изменения в класс ExpansesManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Внес изменения в класс ExpansesManager" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

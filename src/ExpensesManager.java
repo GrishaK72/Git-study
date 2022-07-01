@@ -3,24 +3,31 @@ public class ExpensesManager{
     double[] expenses;
 
     //Методы
-    void saveExpense(double moneyBeforeSalary, double expense, int day){
+    double saveExpense(double moneyBeforeSalary, double expense, int day){
+
+        //expenses[day - 1] = expense;
+        if (expenses[day - 1] == 0.0) {
+            expenses[day - 1] = expense;
+        } else {
+            expenses[day - 1] = expenses[day - 1] + expense;
+        }
         moneyBeforeSalary = moneyBeforeSalary - expense;
-        expenses[day - 1] = expense;
         System.out.println("Значение сохранено! Ваш текущий баланс в рублях: " + moneyBeforeSalary);
         if (moneyBeforeSalary < 1000) {
             System.out.println("На вашем счету осталось совсем немного. Стоит начать экономить!");
         }
+        return moneyBeforeSalary;
     }
 
     void findMaxExpense(){
-        double maxExpense;
+
+        double maxExpense = 0.0;
         for (int i = 0; i < expenses.length; i++) {
-           if (expenses[i] > maxExpense){
+            if (expenses[i] > maxExpense) {
                 maxExpense = expenses[i];
             }
         }
         System.out.println("Самая большая сумма расходов на этой неделе составила " + maxExpense + " руб.");
-        //    return maxExpense;
     }
 
     void printAllExpenses (){
