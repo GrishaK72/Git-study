@@ -14,9 +14,9 @@ public class ExpensesManager{
 
     void findMaxExpense(){
         double maxExpense = 0;
-        for (double expens : expenses) {
-            if (expens > maxExpense) {
-                maxExpense = expens;
+        for (int i = 0; i < expenses.length; i++) {
+           if (expenses[i] > maxExpense){
+                maxExpense = expenses[i];
             }
         }
         System.out.println("Самая большая сумма расходов на этой неделе составила " + maxExpense + " руб.");
